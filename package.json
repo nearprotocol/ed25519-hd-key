@@ -1,5 +1,5 @@
 {
-  "name": "near-ed25519-hd-key",
+  "name": "near-hd-key",
   "version": "1.0.0",
   "description": "BIP-0032 like derivation for ed25519 curve",
   "main": "dist/index.js",
