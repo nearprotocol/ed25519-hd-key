@@ -1,6 +1,6 @@
 {
   "name": "near-hd-key",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "BIP-0032 like derivation for ed25519 curve",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -46,18 +46,18 @@
     "trezor"
   ],
   "author": "Aleksey Popov",
-  "license": "GPL-3",
+  "license": "MIT",
   "dependencies": {
-    "bip39": "2.4.0",
-    "create-hmac": "1.1.6",
-    "tweetnacl": "^1.0.1"
+    "bip39": "3.0.2",
+    "create-hmac": "1.1.7",
+    "tweetnacl": "1.0.3"
   },
   "devDependencies": {
-    "@types/jest": "24.0.19",
-    "@types/node": "^12.12.11",
-    "jest": "24.9.0",
-    "jest-cli": "25.0.0",
-    "ts-jest": "24.1.0",
-    "typescript": "3.6.4"
+    "@types/jest": "25.2.3",
+    "@types/node": "14.0.4",
+    "jest": "25.5.4",
+    "jest-cli": "26.0.1",
+    "ts-jest": "25.5.1",
+    "typescript": "3.9.3"
   }
 }
